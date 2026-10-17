@@ -1,4 +1,4 @@
-# ABA Abstract Rule Learning Task — Capuchin Joystick Version
+# ABA Abstract Rule Learning Task Capuchin Joystick Version
 
 **Author:** Matthew H. Babb
 
