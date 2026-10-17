@@ -1,9 +1,9 @@
-ABA ABSTRACT RULE LEARNING TASK - CAPUCHIN JOYSTICK VERSION
+# ABA ABSTRACT RULE LEARNING TASK - CAPUCHIN JOYSTICK VERSION
 Matthew H. Babb
 
 Python/pygame joystick version of the ABA task from Antoun, Murugan & Wilson (2025)
 
-WHAT THE TASK DOES
+# WHAT THE TASK DOES
 Each trial, three sequences of colored squares (ABA, AAB, BAA) appear in 3 of the 4 screen corners.
 The A and B colors are new every trial, so the monkey must learn the abstract rule, not the colors.
 One rule is "correct" for each monkey. Correct choices earn a pellet; incorrect choices add a timeout.
@@ -11,7 +11,7 @@ Colors are chosen to be distinguishable for red-green colorblind (dichromat) cap
 The task runs continuously, logs every trial, and tracks daily performance toward criterion
 (70% correct on 3 of 5 consecutive testing days).
 
-FILES
+# FILES
 ABA_Color_Training_v2.py      Main task. Run this.
 Capuchin_Colors.py            Generates colorblind-safe color pairs
 Matts_Toolbox.py              Shared functions (screen, joystick, pellets, data files)
@@ -23,11 +23,11 @@ ABA_Variable_Definitions.csv  Description of every data column
 File Reset/                   Blank copy of total_trials.txt for starting a new monkey
 Old Versions/                 Previous versions of the task
 
-OUTPUT
+# OUTPUT
 MONKEY_ABA_Color_DATE.csv          One row per trial
 MONKEY_Testing_Day_Summary.csv     One row per testing day with 100+ trials
 
-REQUIREMENTS
+# REQUIREMENTS
 Python 3
 pygame
 tkinter (included with standard Python on Windows)
