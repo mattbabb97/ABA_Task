@@ -1,0 +1,30 @@
+Variable Name,Explanation
+monkey,Name of the subject (from monkey.txt)
+version,Version of the task script
+date,Date of the session (YYYY-MM-DD)
+time,Time the choice was made (HH:MM:SS)
+total_trial_number,Total trials this monkey has ever completed on this task (from total_trials.txt)
+trial_number_today,Trial number for today (keeps counting if the task is restarted the same day)
+block,Block number since the task was opened. 1 block = 24 trials = every position configuration once
+trial_within_block,Trial number within the current block (1 - 24)
+rule,The CORRECT sequence for this monkey (ABA / AAB / BAA)
+position_config,"Position configuration number (1 - 24). Sets which corner the correct sequence and the 2 foils are in. Pseudorandomized so the correct sequence is never in the same corner more than 3 trials in a row"
+ABA_location,Corner the ABA sequence was in
+AAB_location,Corner the AAB sequence was in
+BAA_location,Corner the BAA sequence was in
+correct_location,Corner the correct (rule) sequence was in
+chosen_sequence,Sequence the monkey selected (ABA / AAB / BAA)
+chosen_sequence_num,"Sequence the monkey selected as a number: 1 = ABA, 2 = AAB, 3 = BAA (same coding as Ben's MATLAB dat.stimSelected). Added in v2"
+chosen_location,Corner the monkey selected
+correct,1 = selected the rule sequence; 0 = selected a foil
+rt,Response time in seconds from when the 3 sequences appeared to the selection
+cursor_x,X position of the cursor (pixels) when the selection was made
+cursor_y,Y position of the cursor (pixels) when the selection was made
+A_red,Red value (0 - 254) of the A color this trial
+A_green,Green value (0 - 254) of the A color this trial
+A_blue,Blue value (0 - 254) of the A color this trial
+B_red,Red value (0 - 254) of the B color this trial
+B_green,Green value (0 - 254) of the B color this trial
+B_blue,Blue value (0 - 254) of the B color this trial
+color_deltaE_min,"How different A and B looked (CIELAB Delta E), taking the SMALLEST of normal vision / protan colorblind / deutan colorblind. Higher = easier to tell apart. Always 30 or more"
+pellets,Number of pellets dispensed this trial

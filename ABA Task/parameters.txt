@@ -1,0 +1,10 @@
+FULLSCREEN? (True or False, capital first letter)
+True
+RULE: the CORRECT sequence for this monkey. Type "ABA", "AAB", or "BAA" and KEEP THE QUOTES
+"ABA"
+ITI (seconds the feedback screen stays up after EVERY trial)
+3
+TIMEOUT (EXTRA seconds added to the ITI after an INCORRECT trial)
+5
+PELLETS PER CORRECT TRIAL
+1
