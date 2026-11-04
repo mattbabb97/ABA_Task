@@ -1,0 +1,33 @@
+Variable Name,Explanation
+monkey,Name of the subject (from monkey.txt)
+version,Version of the task script
+date,Date of the session (YYYY-MM-DD)
+time,Time the choice was made (HH:MM:SS)
+testing_trial_number,Trial number across the whole test (1 - 5000). Keeps counting across testing days
+trial_number_today,Trial number for today (keeps counting if the task is restarted the same day)
+testing_block,Testing block number (1 - 500). 1 block = 10 trials with exactly 1 shape probe
+trial_within_block,Trial number within the current testing block (1 - 10)
+trial_type,"""color trial"" = standard color trial (same as training v2, with feedback). ""shape trial"" = shape probe trial (no sound, no colored background, pellet no matter the choice)"
+probe_trial_number,Shape probe number (1 - 500). NA on color trials
+shape_pair,"Shape stimulus pair shown (e.g. 247 = A247.png and B247.png from the stimuli folder, A always shown twice in ABA). Taken from row probe_trial_number of probe_trial_order.txt. NA on color trials"
+rule,The CORRECT sequence for this monkey (ABA / AAB / BAA)
+position_config,"Position configuration number (1 - 24). Sets which corner the correct sequence and the 2 foils are in. Color and shape trials each have their own pseudorandomized list so the correct sequence is never in the same corner more than 3 trials in a row (within each trial type)"
+ABA_location,Corner the ABA sequence was in
+AAB_location,Corner the AAB sequence was in
+BAA_location,Corner the BAA sequence was in
+correct_location,Corner the correct (rule) sequence was in
+chosen_sequence,Sequence the monkey selected (ABA / AAB / BAA)
+chosen_sequence_num,"Sequence the monkey selected as a number: 1 = ABA, 2 = AAB, 3 = BAA"
+chosen_location,Corner the monkey selected
+correct,"1 = selected the rule sequence; 0 = selected a foil. On shape trials this is scored the same way, even though the monkey is rewarded no matter what"
+rt,Response time in seconds from when the 3 sequences appeared to the selection
+cursor_x,X position of the cursor (pixels) when the selection was made
+cursor_y,Y position of the cursor (pixels) when the selection was made
+A_red,Red value (0 - 254) of the A color this trial. NA on shape trials
+A_green,Green value (0 - 254) of the A color this trial. NA on shape trials
+A_blue,Blue value (0 - 254) of the A color this trial. NA on shape trials
+B_red,Red value (0 - 254) of the B color this trial. NA on shape trials
+B_green,Green value (0 - 254) of the B color this trial. NA on shape trials
+B_blue,Blue value (0 - 254) of the B color this trial. NA on shape trials
+color_deltaE_min,"How different A and B looked (CIELAB Delta E), taking the SMALLEST of normal vision / protan colorblind / deutan colorblind. NA on shape trials"
+pellets,Number of pellets dispensed this trial (always pellets_per_correct on shape trials)
